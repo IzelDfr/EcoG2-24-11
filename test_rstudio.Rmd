@@ -394,6 +394,7 @@ table(rfClasses, testing$age)
 
 #interpréter ces résultats PLS et de RandomForest
 ```{r}
+library(vegan)
 pls_biplot <- list("loadings" = loadings(plsFit$finalModel), "scores" = scores(plsFit$finalModel))
 class(pls_biplot$scores) <- "matrix"
 
