@@ -600,3 +600,6 @@ ggplot() +
   facet_grid( ~ age2) +
   theme(panel.border = element_rect(color = "#787878", fill = alpha("white", 0)))
 ```
+
+gitcreds::gitcreds_set()
+
